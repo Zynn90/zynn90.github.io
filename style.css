@@ -1,0 +1,138 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.contain-navbar {
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    font-size: 2.5em;
+    font-size: 1.125em;
+}
+
+.li-navbar:hover {
+    background-color: #111;
+    background-size: auto;
+    transition: .5s ease-in-out;
+    transition-delay: .5ms;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contain-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.contain-content1 {
+    position: absolute;
+    justify-content: left;
+    color: white;
+}
+
+.a-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 550px;
+    height: 350px;
+    border-radius: 85px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.a-content img {
+    margin-bottom: 20px;
+
+}
+
+.b-content {
+    background-color: transparent;
+    width: 140px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-content {
+    width: 75px;
+    height: auto;
+}
+
+.Contact1 {
+    width: 60px;
+    height: auto;
+}
+
+.Contact2 {
+    width: 60px;
+    height: auto;
+}
+
+.contain-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.h1-footers {
+    font-size: 30px;
+    color: white;
+}
